@@ -1,0 +1,193 @@
+{
+  "workbench.iconTheme": "vscode-great-icons",
+  "phpfmt.visibility_order": true,
+  "phpfmt.smart_linebreak_after_curly": true,
+  "phpfmt.detect_indent": true,
+  "phpfmt.indent_with_space": 4,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "files.autoSave": "onFocusChange",
+  "git.confirmSync": false,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "php-cs-fixer.executablePath": "D:\\laragon\\bin\\php\\php7.2.9nts-vc15-x64\\php.exe",
+  "files.eol": "\n",
+  "php-cs-fixer.lastDownload": 1660891857558,
+  "explorer.confirmDelete": false,
+  "remote.SSH.remotePlatform": {
+    "alias": "linux",
+    "192.168.1.139": "linux"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "php.debug.executablePath": "D:\\laragon\\www\\mixcall\\server\\public\\index.php",
+  "php.debug.ideKey": "vscode-xdebug",
+  "git.enableSmartCommit": true,
+  "[html]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  //配置对 .vue 文件的格式化
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.enable": true,
+  "prettier.semi": false, // 句尾添加分号
+  "prettier.singleQuote": true, // 使用单引号代替双引号
+  "prettier.printWidth": 100, // 超过最大值换行
+  "prettier.tabWidth": 2, // 缩进字节数
+  "prettier.useTabs": false, // 缩进不使用tab，使用空格
+  "window.menuBarVisibility": "compact",
+  "backgroundCover.imagePath": "c:\\Users\\42259\\Pictures\\jonatan-pie-3l3RwQdHRHg-unsplash.jpeg",
+  "editor.accessibilitySupport": "off",
+  "vim.easymotion": true,
+  "vim.flash.enable": true,
+  "vim.flash.ignorecase": true,
+  "vim.commandLineModeKeyBindings": [],
+  "vim.useCtrlKeys": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-s>": false
+  },
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  // settings.json
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>", "d", "f"],
+      "commands": ["delete-function.deleteFunction"]
+    },
+    {
+      "before": ["<space>", "n", "f"],
+      "commands": ["explorer.newFile"]
+    },
+    {
+      "before": ["<space>", "n", "s"],
+      "commands": ["explorer.newFolder"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["<C-h>"],
+      "commands": ["cursorLeft"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["cursorDown"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["cursorUp"]
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": ["cursorRight"]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [],
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true
+  },
+  "editor.fontLigatures": false,
+  "extensions.autoCheckUpdates": false,
+  "editor.codeActionsOnSave": {
+  
+  },
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "search.exclude": {
+    "front/node_modules": true
+  },
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "git.ignoreRebaseWarning": true,
+  "gitlens.graph.layout": "editor",
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.automationProfile.linux": {},
+  "window.zoomLevel": -1,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.detectIndentation": false,
+  "php.validate.executablePath": "D:\\laragon\\bin\\php\\php7.2.9nts-vc15-x64\\php.exe",
+  "git-graph.defaultColumnVisibility": {
+    "Date": true,
+    "Author": true,
+    "Commit": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.indentSize": "tabSize",
+"git-graph.customEmojiShortcodeMappings": [],
+"gitlens.graph.minimap.enabled": false,
+"files.associations": {
+    "*.agi": "php"
+},
+"sonarlint.pathToNodeExecutable": "C:\\\\Users\\\\42259\\\\AppData\\\\Roaming\\\\nvm\\\\v16.20.1\\\\node.exe",
+"prettier.requireConfig": true,
+"vetur.completion.scaffoldSnippetSources": {
+
+    "workspace": "💼",
+    "user": "🗒️",
+    "vetur": "✌"
+},
+
+}
